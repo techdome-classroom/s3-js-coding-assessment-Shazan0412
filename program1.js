@@ -62,8 +62,4 @@ class Stack {
     }
   }
   
-  // Usage
-  const validator = new Validator();
-  console.log(validator.isValid("()")); // true
-  console.log(validator.isValid("()[]{}")); // true
-  console.log(validator.isValid("(]")); // false
+  
